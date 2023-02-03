@@ -31,5 +31,6 @@ files in repository:
       etl.py       : the python script
       
 how to run python script : 
+
     1- open terminal 
     2- type 'python etl.py' then press enter.
