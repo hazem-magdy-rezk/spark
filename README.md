@@ -1,6 +1,9 @@
 project Introduction : 
 
-    this project is for 'Sparkify' is a music streaming startup, it aims to build an ETL pipeline that extracts their data from S3, processes them using Spark, and loads the data back into S3 as a set of dimensional tables. This will allow their analytics team to continue finding insights in what songs their users are listening to.
+    this project is for a music streaming startup, 
+    it aims to build an ETL pipeline that extracts their data from S3, 
+    processes them using Spark, and loads the data back into S3 as a set of dimensional tables. 
+    This will allow their analytics team to continue finding insights in what songs their users are listening to.
 
 data schema:
 
@@ -22,9 +25,10 @@ Dimension Tables
 
 files in repository:
         
-      Data    : the song data & log data in Json format
-      dl.cfg  : the config credentials
-      etl.py  : the python script
+      song_data    : the song data & log data in Json format
+      log_data     : the log data in Json format
+      dl.cfg       : the config credentials
+      etl.py       : the python script
       
 how to run python script : 
 1- open terminal 
